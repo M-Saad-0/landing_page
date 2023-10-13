@@ -12,6 +12,7 @@ body {
   background-image: url(./images/imgb.jpg);
   background-size: cover;
   box-shadow: inset 10px 10px 600px black;
+  transition: all 0.5s ease;
 }
 
 header {

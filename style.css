@@ -122,9 +122,24 @@ header {
     display: flex;
     flex-direction: column;
   }
+
   .prod .c {
     display: flex;
     flex-direction: column;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .myGitHub .cont img {
+    width: 400px;
+    position: absolute;
+    top: -1000px;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -211,6 +226,9 @@ header {
   border-radius: 1rem;
 }
 
+.about .intro {
+  padding: 10px;
+}
 .about .addr {
   position: relative;
 }
@@ -223,4 +241,98 @@ header {
 }
 .about img:hover + address {
   opacity: 100%;
+}
+
+.contact {
+  margin: 10px;
+  background-color: #fff;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  box-shadow: inset 6px 6px 600px black;
+  border-radius: 1rem;
+  outline: 1px solid white;
+}
+
+.myGitHub img {
+  width: 100px;
+  position: relative;
+  top: 10px;
+}
+
+input,
+textarea {
+  background-color: #00000000;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  padding: 6px;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #00000000;
+  border: 0px;
+  outline: none;
+  border-bottom: 3px solid white;
+}
+
+.contact input {
+  width: 96%;
+}
+
+.myGitHub {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.myGitHub p {
+  position: absolute;
+  width: 100%;
+}
+
+.myGitHub .p1 {
+  bottom: 50px;
+}
+
+.myGitHub .p2 {
+  bottom: 0px;
+}
+
+.myGitHub .cont {
+  width: 400px;
+  position: relative;
+  top: -40px;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact form button {
+  border: none;
+  border-radius: 1rem;
+  padding: 20px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  cursor: pointer;
+  margin: 10px;
+  width: 40%;
+}
+
+.contact form button:hover {
+  box-shadow: 10px 10px black;
+  position: relative;
+  top: -10px;
+  left: -10px;
 }
